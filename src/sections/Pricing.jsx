@@ -15,13 +15,13 @@ const Pricing = () => {
         <Element name='pricing'>
 
             <div className='container'>
-                <div className='relative max-w-960 pricing-head_before relative  mx-auto   bg-s1 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16'>
+                <div className='relative max-w-960 pricing-head_before  mx-auto   bg-s1 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16'>
                     
                     <h3 className='h3 z-3 relative text-center max-w-lg text-p5 max-sm:max-w-sm max-md:mb-11 mb-14 max-lg:h4 max-md:h5 mx-auto' >
                         Flexible prices for teams of all sizes
                     </h3>
 
-                    <div className='relative border-[3px] border-s5 bg-s1 flex w-[375px] rounded-2xl p-3 backdrop-blur-[8px] mx-auto z-4 max-md : w-[310px]'>
+                    <div className='relative border-[3px] border-s5 bg-s1 flex w-[375px] rounded-2xl p-3 backdrop-blur-[8px] mx-auto z-4 max-md:w-[310px]'>
                         <button 
                             onClick={()=> setAnnual(false)} 
                             className={clsx('pricing-head_btn' , !Annual && 'text-p5')} 
